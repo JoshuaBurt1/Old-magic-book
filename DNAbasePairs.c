@@ -26,11 +26,30 @@ int main(void) {
 	int numberV = 27;
 	question2(&numberS, &numberV); //swaps numbers
 	printf("\n");
-	
+	     
+	// 23:27; W : 1 ->             1                  
+	//"[So], We revealed"	                            61=> 18th prime; 4 visual occurances => 18*4 = 72 (reverse verse # & "the truth" value in A. Greek")
+	//                   7 <- [1], 6 : 1  -> 7       
+	//[80],+ 1 + 6 + 8 + 10 + 50 + 1 = 146 
+	//       6,1,50,8,               : 146+10,08  
+	//       615.8                   : 156.8            *some kind of transformation*
+	//                        615.87 : 615.87           6+1=7 & 2nd decimal is 7 
+	//
+	//Scientific value references: 
+	// 1. https://www.protocol-online.org/biology-forums-2/posts/27692.html
+	// "Based on that papers' calculations, the sizes of a base pair (accounting for loss of a water molecule on each strand in polymerization and a proton from each phosphate hydroxyl due to the pH) should be:
+	// GC: 347.2207+307.1966-(4x1.0079+2x15.9994)-(2x1.0079)= 616.3711
+	// AT: 331.2213+322.2079-(4x1.0079+2x15.9994)-(2x1.0079)= 615.383
+    // average: 615.8771" 
+	// 2. https://onlinelibrary.wiley.com/doi/10.1002/cyto.a.10013
+	//
+	//Contextual reference match:
+	//"Build the Ark ... take on board a pair from every species"
+	                                                
 	printf("Question 3: \n");
-	int numSYN = 615;
-	int numF_ = 87;
-	printf("A GCT of %d & %d numbers is: %d \n", numSYN, numF_, question3(numSYN, numF_)); //calculates greatest common divisor
+	int numBasePair = 615;
+	int numMass = 87;
+	printf("A GCT of %d & %d numbers is: %d \n", numBasePair, numMass, question3(numBasePair, numMass)); //calculates greatest common divisor
 	printf("\n");
 	
 	printf("Question 4: \n");
@@ -69,7 +88,7 @@ void question2(int *x, int *y) {
     printf("Original values: %2d %2d \n", *x, *y);
     temp = *x;
     *x = *y;
-    *y = temp;
+    y = &temp;
     printf("Swapped values:  %2d %2d \n", *x, *y);   
 }
 
