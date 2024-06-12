@@ -27,15 +27,15 @@ int main(void) {
 	question2(&numberS, &numberV); //swaps numbers
 	printf("\n");
 	     
-	// 23:27; W : 1 ->             1                  
-	//"[So], We revealed"	                            61=> 18th prime; 4 visual occurances => 18*4 = 72 (reverse verse # & "the truth" value in A. Greek")
-	//                   7 <- [1], 6 : 1  -> 7       
+	// 23:27; W : 1 ->             1                    16=> 4 visual occurrences (16*4=64 possible codons) 
+	//"[So], We revealed"	                            61=> 18th prime; 4 visual occurrences forming a cross structure => 18*4 = 72 (reverse verse # & "the truth" value in A. Greek")
+	//                        [1], 6 : 1      
 	//[80],+ 1 + 6 + 8 + 10 + 50 + 1 = 146 
 	//       6,1,50,8,               : 146+10,08  
 	//       615.8                   : 156.8            *some kind of transformation*
 	//                        615.87 : 615.87           6+1=7 & 2nd decimal is 7 
 	//
-	//Scientific value references: 
+	//Scientific value of 615.87 references: 
 	// 1. https://www.protocol-online.org/biology-forums-2/posts/27692.html
 	// "Based on that papers' calculations, the sizes of a base pair (accounting for loss of a water molecule on each strand in polymerization and a proton from each phosphate hydroxyl due to the pH) should be:
 	// GC: 347.2207+307.1966-(4x1.0079+2x15.9994)-(2x1.0079)= 616.3711
@@ -44,7 +44,9 @@ int main(void) {
 	// 2. https://onlinelibrary.wiley.com/doi/10.1002/cyto.a.10013
 	//
 	//Contextual reference match:
-	//"Build the Ark ... take on board a pair from every species"
+	// 1. Various creation stories: "Build the Ark ... take on board a pair from every species"
+	// 2. Voynich Manuscript: page 75, 1st "DNA page", 6 & 8 nymphs in divided pools => 615.87
+	// 3. Dune (1[9]65): https://www.youtube.com/watch?v=124xCHfVUk4
 	                                                
 	printf("Question 3: \n");
 	int numBasePair = 615;
