@@ -27,26 +27,29 @@ int main(void) {
 	question2(&numberS, &numberV); //swaps numbers
 	printf("\n");
 	     
-	// 23:27                    
-	// "So We revealed"	 
-	//                             *7 : 1*       
+	// 23:27                                             *pattern: 23/27=0.851...*
+	// "So We revealed"	            W : 1                #pattern: 27/23= 1.17#   
+	//                             #7 : 1#       
 	//[80]+ 1 + 6 + 8 + [10] + 50 + 1 = 156 
-	//       6,1,50,8,1               : 156,08,01        *some kind of transformation*
-	//       615.81                   : 156.81           *replace 1 with 7*
+	//          6,1,50,8,1            : 156,08,01        *order to pattern "158"*
+	//          615.81                : 615.81           *replace 1 with 7; pattern 1.17*
 	//                         615.87 : 615.87           *average DNA base pair mass*
 	//
-	// "the ark"
-    //                    *5 : 1*
-	// 1 + 30 + 80 + 30 + 20 = 161  
-	//                       : 615.383  *replace 1 with 5; AT DNA base pair mass*
-	// leftover
-	//            *1 : 1*               *keep AT value = 615.383*
-	// 1                  20            *observer leftover numbers: 1,1,1,20*
+	// "the ark"           W : 5
+    //                    #5 : 1#                        *note: average = mesos = 515 (A.Greek); however it is broken 5:1:5*
+ 	// 1 + 30 + 80 + 30 + 20 = 161  
+	// 1,30,80,30,20         : 615  	 				 *replace 1 with 5*
+	// 1,20                  : 615,03,08,03
+	//                       : 615.383  				 *AT DNA base pair mass*
+    //                                                                                              
+	//        Left (decimal) : Right (whole)             *observe left and right leftover numbers*  
+	//                    #1 : 1#       				 
+	// 1                  20                             *keep AT value = 615.383*
 	// 
-	// 1,1,20                : 616.383  *add 1*   
-	// 1,20                  : 616.373  *subtract 0.01*
-	// 1                     : 616.3710 *subtract 0.0020*
-	//                       : 616.3711 *add 0.0001; GC DNA base pair mass*  
+	// 1,1,20                : 616.383  				 *add 1 (whole #)*   
+	// 1,20                  : 616.373  				 *subtract 0.01*
+	// 1                     : 616.3710                  *subtract 0.0020*
+	//                       : 616.3711                  *add 0.0001; GC DNA base pair mass*  
 	//                
 	
 	//Scientific value of 615.87 references: 
@@ -58,9 +61,11 @@ int main(void) {
 	// 2. https://onlinelibrary.wiley.com/doi/10.1002/cyto.a.10013
 	//
 	//Contextual reference match:
-	// 1. Various creation stories: "Build the Ark ... take on board a ""pair"" from every species"; 
-	// A. Other old magic book: Chapter 6 start, 10th Hebrew patriarch: Noah (Hebrew=50+8) => 615.8  Ref: https://mechon-mamre.org/p/pt/pt0106.htm
-	// B. Another old magic book: Chapter 6 start, 10th Hebrew patriarch: Noah (A.Greek=50+800+5) => 615.8  Ref: https://www.blueletterbible.org/lxx/gen/6/1/s_6001
+	// 1. Various creation stories => "Build the Ark ... take on board a ""pair"" from every species"; 
+	// A. Other old magic book
+	// "Make ... an ark"; Chapter 6, 10th Hebrew patriarch: Noah (Hebrew=50+8) & 1st mention 5:29 (29/5=5.8) => 615.8_  Ref: https://mechon-mamre.org/p/pt/pt0106.htm
+	// B. Translation and ammended version of Other old magic book
+	// "Make ... an ark"; Chapter 6, 10th Hebrew patriarch: Noah (A.Greek=50+800+5) & 1st mention 5:29 (29/5=5.8) => 615.8_  Ref: https://www.blueletterbible.org/lxx/gen/6/1/s_6001
 	// 2. Voynich Manuscript: page 75, 1st "DNA page", 6 & 8 nymphs in divided pools => 615.87
 	// 3. Dune (1[9]65): https://www.youtube.com/watch?v=124xCHfVUk4
 	                                                
