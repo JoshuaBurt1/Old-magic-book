@@ -27,14 +27,28 @@ int main(void) {
 	question2(&numberS, &numberV); //swaps numbers
 	printf("\n");
 	     
-	// 23:27; W : 1 ->             1                    16=> 4 visual occurrences (16*4=64 possible codons) 
-	//"[So], We revealed"	                            61=> 18th prime; 4 visual occurrences forming a cross structure => 18*4 = 72 (reverse verse # & "the truth" value in A. Greek")
-	//                        [1], 6 : 1      
-	//[80],+ 1 + 6 + 8 + 10 + 50 + 1 = 146 
-	//       6,1,50,8,               : 146+10,08  
-	//       615.8                   : 156.8            *some kind of transformation*
-	//                        615.87 : 615.87           6+1=7 & 2nd decimal is 7 
+	// 23:27                    
+	// "So We revealed"	 
+	//                             *7 : 1*       
+	//[80]+ 1 + 6 + 8 + [10] + 50 + 1 = 156 
+	//       6,1,50,8,1               : 156,08,01        *some kind of transformation*
+	//       615.81                   : 156.81           *replace 1 with 7*
+	//                         615.87 : 615.87           *average DNA base pair mass*
 	//
+	// "the ark"
+    //                    *5 : 1*
+	// 1 + 30 + 80 + 30 + 20 = 161  
+	//                       : 615.383  *replace 1 with 5; AT DNA base pair mass*
+	// leftover
+	//            *1 : 1*               *keep AT value = 615.383*
+	// 1                  20            *observer leftover numbers: 1,1,1,20*
+	// 
+	// 1,1,20                : 616.383  *add 1*   
+	// 1,20                  : 616.373  *subtract 0.01*
+	// 1                     : 616.3710 *subtract 0.0020*
+	//                       : 616.3711 *add 0.0001; GC DNA base pair mass*  
+	//                
+	
 	//Scientific value of 615.87 references: 
 	// 1. https://www.protocol-online.org/biology-forums-2/posts/27692.html
 	// "Based on that papers' calculations, the sizes of a base pair (accounting for loss of a water molecule on each strand in polymerization and a proton from each phosphate hydroxyl due to the pH) should be:
@@ -44,13 +58,15 @@ int main(void) {
 	// 2. https://onlinelibrary.wiley.com/doi/10.1002/cyto.a.10013
 	//
 	//Contextual reference match:
-	// 1. Various creation stories: "Build the Ark ... take on board a pair from every species"
+	// 1. Various creation stories: "Build the Ark ... take on board a ""pair"" from every species"; 
+	// A. Other old magic book: Chapter 6 start, 10th Hebrew patriarch: Noah (Hebrew=50+8) => 615.8  Ref: https://mechon-mamre.org/p/pt/pt0106.htm
+	// B. Another old magic book: Chapter 6 start, 10th Hebrew patriarch: Noah (A.Greek=50+800+5) => 615.8  Ref: https://www.blueletterbible.org/lxx/gen/6/1/s_6001
 	// 2. Voynich Manuscript: page 75, 1st "DNA page", 6 & 8 nymphs in divided pools => 615.87
 	// 3. Dune (1[9]65): https://www.youtube.com/watch?v=124xCHfVUk4
 	                                                
 	printf("Question 3: \n");
 	int numBasePair = 615;
-	int numMass = 87;
+	int numMassAverage = 87;
 	printf("A GCT of %d & %d numbers is: %d \n", numBasePair, numMass, question3(numBasePair, numMass)); //calculates greatest common divisor
 	printf("\n");
 	
