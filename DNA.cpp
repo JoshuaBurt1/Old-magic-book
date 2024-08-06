@@ -103,6 +103,9 @@ long integerPower(int base, int exponent) {
 // 2. https://onlinelibrary.wiley.com/doi/10.1002/cyto.a.10013
 //
 // *** Contextual reference match ***
+// Note: Values are stored using number games. The objective is to find "equivalencies" and match the context of the story.
+// The equivalencies may be separate equations or word substituted for number. The more equivalencies, the higher the probability you are on the right track.
+//
 // 1. Various creation stories => "Build the Ark ... take on board a ""pair"" from every species"; 
 //
 // A. Old magic book (https://www.masjidtucson.org/quran/wordCount/QuranGVwords.php)
@@ -136,27 +139,28 @@ long integerPower(int base, int exponent) {
 // Genesis 5:  First word "And" = 6+10 in Hebrew occurs 30/32 times _,_,[6,10] ... *30 times (position 3 -> 0) 										  => 61_.
 // 			   Verse 29 of Chapter 5 - [1]st mention of Noah: 29/5=[5.8]                                                                              => 615.8_
 // 			   "Noah" = 50+8 occurs 3 times in Chapter 5 - 5*3*58 = 870                                                                               => 615.87
-// 			   * Note: "And" = Vav + yod (Hebrew => 6 + 10) : cell nuclear material conveniently called [DNA] 
+// 			   *Note: "And" = Vav + yod (Hebrew => 6 + 10) : cell nuclear material conveniently called [DNA] 
 //	
 // First words up to "Noah" - Genesis 5														                                                                                        
 // Genesis 5:29 ->        English => [And]    + [he called]     + [his name]               + [Noah]         															* 29+5=34; 1 sigma flag
-//                        Hebrew =>  [6 + 10] + [100 + 200 + 1] + [1 + 400 + 300 + 40 + 6] + [50 + 8]   = 1122
-//                                    _   __     2                                      9	  __   _																	* Step A: match verse value to position, starting from 0th value position	                                      
-//                        6,10                                                                                                                  50,8  => 615.8			* First occurrence game1: use values: 1,2,11,12 => 1=6, 2=10, 11=50, 12=8 	
-//                        6,10        * 100+200+1+1+400+300+40+6 = 1048; 7 of 8 unique [Hebrew word unique:"yachid" = 10+8+10+4=32]             50,8  => 615.8[7]       * First occurrence game2: between 3rd and 4th position OR 2nd and 3rd value, what is not a random occurrence? => note: value 32 = yachid : unique [1] -> 34.1 (1 sigma flag match)             
-//                        6,10        * 10s in "yachid" not unique LIKE 1s at position 4 and 5 & SAME "yachid" # pos.: value = 10:50,8:40,4:1   50,8  => 615.8[7]
-//						  6,10        * total/(letter per word) = 1122/(2*3*5*2) = 18.7															50,8  => 615.8[7]
-//                        6,10        * all values/"yachid" = 1048/32 = 32.75 => "yachid".75 => 1, 7, 5		                	                50,8  => 615.87[71]
-//						  6,10        * total/all values = 1122/1048 = 1.070610687 => all values except 5: 7 of 10 non-zero      				50,8  => 615.87[71]
-//						  6,10        * 12 letters with value, 4 words, 1 sentence : 12+4+1 = 17 & 12*4*1=48 = 7*7-1                            50,8  => 615.8[771] 
+//                        Hebrew =>  [6 + 10] + [100 + 200 + 1] + [1 + 400 + 300 + 40 + 6] + [50 + 8]   = 1122                                                          * First occurrence helper: use values: 1,2,11,12 => 1=6, 2=10, 11=50, 12=8
+//                                    _   __     2                                      9	  __   _																	* Number game: match verse value to position, starting from 0th value position	                                      
+//                        6,10                                                       [3^2]                                                      50,8  => 615.8		    * Aside i: Notice there is 2 & 9 and not 2 & 3 like in Genesis 5:32 	 	
+//                        6,10        * 100+200+1+1+400+300+40+6 = 1048; 7 of 8 unique [Hebrew word unique:"yachid" = 10+8+10+4=32]             50,8  => 615.8[7]         Equivalency A: 9 = 3^2;      
+//                        6,10        * 10s in "yachid" not unique LIKE 1s at position 4 and 5 & SAME "yachid" # pos.: value = 10:50,8:40,4:1   50,8  => 615.8[7]         Equivalency B: rounded sqrt(1122) = 33 (2 3's)     
+//						  6,10        * total/(letter per word) = 1122/(2*3*5*2) = 18.7															50,8  => 615.8[7]         Equivalency C: rounded sqrt(1048) = 32 (3 & 2)     
+//                        6,10        * all values/"yachid" = 1048/32 = 32.75 => "yachid".75 => 1, 7, 5		                	                50,8  => 615.87[71]       Equivalency D: I am using unique:"yachid" math concept: 10+8+10+4 = 32
+//						  6,10        * total/all values = 1122/1048 = 1.070610687 => all values except 5: 7 of 10 non-zero      				50,8  => 615.87[71]       Equivalency E: It looks like 9 is like 3: look at position 3, it is under 200: (3 & 2)
+//						  6,10        * 12 letters with value, 4 words, 1 sentence : 12+4+1 = 17 & 12*4*1=48 = 7*7-1                            50,8  => 615.8[771]       ~ 2 & 9 is actually like 2 & 3 like in Genesis 5:32
 //
 // Genesis 5:30 ->       English => [And]    + [lived]  + [Lamech]       + [after]            + [he begot]                +  ~obj.    + [Noah]
 //						 Hebrew =>  [6 + 10] + [8 + 10] + [30 + 40 + 20] + [1 + 8 + 200 + 10] + [5 + 6 + 30 + 10 + 4 + 6] + [1 + 400] + [50 + 8] = 863 
-//                                   _   __         3							   (no position because word is object marker) =>  _     __   _
-//                                                  3                                                        (actual position) => 18
-//												2	3 			  (unique occurrence: all numbers @ word)  yachid[1] : 10+8+10+4 = 32 
-//						  6,10																													50,8  => 615.8
-//																
+//                                   _   __         3							   (no position because word is object marker) =>  _     __   _                         * Aside ii: Notice there is 3 & 0 and not 2 & 3 like in Genesis 5:32
+//                                                  3                                                        (actual position) => 18                                      Equivalency A: The expected stop position word is unique occurrence, "yachid" = 32 
+//												2	3 		     (unique occurrence & all numbers @ word  yachid[1] : 10+8+10+4 = 32                                      Equivalency B: The actual position (18) + word value (1 & 400) is equivalent to "yachid" = 10+8+10+4 = 32
+//						  6,10																													50,8  => 615.8            Equivalency C: Position 18 & 32, mirror this to words [lived = 8 + 10]: position 2, position 3
+//							                                                                                                                                              ~ 3 & 0 is actually like 2 & 3 like in Genesis 5:32
+//									
 // Genesis 5:32 ->		 English => [And]    + [was]    + [Noah]           
 //						 Hebrew =>  [6 + 10] + [5 + 10] + [50 + 8] = 89																	                
 //                                   _   __     2    3     __   _
@@ -236,9 +240,9 @@ long integerPower(int base, int exponent) {
 // 	"To the fourth, to which you must travel seven leagues" 					0.7*10^4 = 7000  -> 5,700 lightyears away: Eagle Nebula contains the "pillars of creation"
 //  "as thick as a parsiktu-vessel... fingers" 									"parsiktu" : line 14 of Babylonian ark story; only known word match 
 //																				"fingers" : decimal place value measurement [0.001]; 
-//																							line 18,19,22: 18*1+19*1+22*5 = 147
-//																								 18*19*22 = 7,524 => 0.0075[full Babylonian day]
-//  															                Pillars of creation : look like broken DNA base pair structure
+//																							lines 18,19,22: 18*1+19*1+22*5 = 147 (distance equation equivalency)
+//																								  18*19*22 = 7,524 => 0.0075[full Babylonian day]
+//  															                Pillars of creation : look like broken DNA base pair structure (more than other nebula structures)
 //
 // 
 // 	3. Voynich Manuscript:
@@ -254,7 +258,7 @@ long integerPower(int base, int exponent) {
 //						
 //  Page 75 (reverse): pool A: 6FL:4FR over pool B: 16FL:3FR
 //  (6-4)/(16-3) = 0.153846...
-//                   15 8 6    & 3+4=7 (total FL) 				  																								 => 615.87
+//                   15 8 6    & 3+4=7 (total FR) 				  																								 => 615.87
 // 
 //
 // 4. Dune (1[9]65): https://www.youtube.com/watch?v=124xCHfVUk4
