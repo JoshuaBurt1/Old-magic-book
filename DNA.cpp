@@ -67,7 +67,7 @@ void question2(int* x, int* y) {
     printf("Original values: %2d %2d \n", *x, *y);
     temp = *x;
     *x = *y;
-    *y = temp; // Fixed the assignment to correctly swap values
+    *y = temp;
     printf("Swapped values:  %2d %2d \n", *x, *y);
 }
 
