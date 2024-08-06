@@ -1,4 +1,4 @@
-// How to remember DNA values
+//How to memorize DNA values
 
 #include <stdio.h>
 
@@ -135,7 +135,7 @@ long integerPower(int base, int exponent) {
 // Genesis 5:  First word "And" = 6+10 in Hebrew occurs 30/32 times _,_,[6,10] ... *30 times (position 3 -> 0) 										  => 61_.
 // 			   Verse 29 of Chapter 5 - [1]st mention of Noah: 29/5=[5.8]                                                                              => 615.8_
 // 			   "Noah" = 50+8 occurs 3 times in Chapter 5 - 5*3*58 = 870                                                                               => 615.87
-// 			   * Note: "And" = Vav + yod (Hebrew => 6 + 10) : cell nuclear material conveiniently called [DNA] 
+// 			   * Note: "And" = Vav + yod (Hebrew => 6 + 10) : cell nuclear material conveniently called [DNA] 
 //	
 // First words up to "Noah" - Genesis 5														                                                                                        
 // Genesis 5:29 ->        English => [And]    + [he called]     + [his name]               + [Noah]         															* 29+5=34; 1 sigma flag
@@ -166,7 +166,7 @@ long integerPower(int base, int exponent) {
 //
 // Chapter 5 totals up to the word Noah:
 // 1122+863+89 = 2074  
-// 1122*863*89 = 86,177,[4]5[4]                  ->  615.877,_,_ ;         			* first occurence of yachid[1] = Genesis 22:2; 22*2= 44 & 22+2=24 (2 4's)    => 615.877[1]
+// 1122*863*89 = 86,177,[4]5[4]                  ->  615.877,_,_ ;         			* first occurrence of yachid[1] = Genesis 22:2; 22*2= 44 & 22+2=24 (2 4's)    => 615.877[1]
 // (1122*863*89)+(1122+863+89) = 86,17[9],5[28]  ->  615.87,_,_,_
 // (1122*863*89)-(1122+863+89) = 86,175,[380]    ->  615.87,_,_,_ 
 // Average molecular mass - water - 2 protons: 						
@@ -174,7 +174,7 @@ long integerPower(int base, int exponent) {
 //  Reference: https://www.protocol-online.org/biology-forums-2/posts/27692.html
 // "Without accounting for the masses lost from the 2 waters or the 2 protons lost from the backbone phosphate, the masses end up being 654.4173 for GC and 653.4292, so an average of 653.9233."
 //
-// C. Translation and ammended version of Other old magic book (https://www.blueletterbible.org/lxx/gen/6/1/s_6001)
+// C. Translation and amended version of Other old magic book (https://www.blueletterbible.org/lxx/gen/6/1/s_6001)
 // "Make ... an ark"; Chapter 6, 10th Hebrew patriarch: Noah (A.Greek=50+800+5) & 1st mention 5:29 (29/5=5.8) => 615.8_
 // First words including "Noah" are [And he called his name Noah]                                                                                  
 //                        (A.Greek => ((20 + 1 + 10) + (5 + 80 + 800 + 50 + 70 + 40 + 1 + 200 + 5 + 50) + (300 + 70) + ( 70 + 50 + 70 + 40 + 1) + (1 + 400 + 300 + 70 + 400) + (50 + 800 + 5) = 3959))        
@@ -220,13 +220,13 @@ long integerPower(int base, int exponent) {
 //																									*Sum (1 to 29)*29 = 435*29 = 12,615
 //
 // *  Back side
-// 1  "I appled (?) the outside kupru-bitumen from the kilns,"									
+// 1  "I applied (?) the outside kupru-bitumen from the kilns,"									
 // 2  "Out of the 120 gur-measures, which the workmen had put to one side."							*put 120 (& on lines 1,2) to one side; 12 | 615         	=> 615.____       *place-value check 			
 // 3  "I lay myself down (?) ... of rejoicing"	
 // 4  "My kith and kin [went into] the boat...;"													*"the ark" has be completed
 // ...
 // ~ ends at line 29 																				*Front + Back lines = 29+29 = 58 = Noah [50 + 8]; divided
-// ~ Quick calculaion: First line & total tablet lines:				                                *6 words, 10 converted from binary, 58 total lines          => 615.8___ 
+// ~ Quick calculation: First line & total tablet lines:				                                *6 words, 10 converted from binary, 58 total lines          => 615.8___ 
 // ~ total lines factorial: 58! = 2.35,0561...*10^78   &    Sum of 1 to 25 "I completed the mixture" = 325
 //   rearrange:    			      3 25, 615.87[7 digits]1 																										=> 615.8771  
 // 
@@ -255,4 +255,3 @@ long integerPower(int base, int exponent) {
 // 
 //
 // 4. Dune (1[9]65): https://www.youtube.com/watch?v=124xCHfVUk4
-//
