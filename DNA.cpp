@@ -146,7 +146,7 @@ long integerPower(int base, int exponent) {
 //                        6,10        * 100+200+1+1+400+300+40+6 = 1048; 7 of 8 unique [Hebrew word unique:"yachid" = 10+8+10+4=32]             50,8  => 615.8[7]       * First occurrence game2: between 3rd and 4th position OR 2nd and 3rd value, what is not a random occurrence? => note: value 32 = yachid : unique [1] -> 34.1 (1 sigma flag match)             
 //                        6,10        * 10s in "yachid" not unique LIKE 1s at position 4 and 5 & SAME "yachid" # pos.: value = 10:50,8:40,4:1   50,8  => 615.8[7]
 //						  6,10        * total/(letter per word) = 1122/(2*3*5*2) = 18.7															50,8  => 615.8[7]
-//                        6,10        * all values/"yachid" = 1048/32 = 32.75 => "yachid".75 => 1 value, 7, position 5		                	50,8  => 615.87[71]
+//                        6,10        * all values/"yachid" = 1048/32 = 32.75 => "yachid".75 => 1, 7, 5		                	                50,8  => 615.87[71]
 //						  6,10        * total/all values = 1122/1048 = 1.070610687 => all values except 5: 7 of 10 non-zero      				50,8  => 615.87[71]
 //						  6,10        * 12 letters with value, 4 words, 1 sentence : 12+4+1 = 17 & 12*4*1=48 = 7*7-1                            50,8  => 615.8[771] 
 //
@@ -227,7 +227,7 @@ long integerPower(int base, int exponent) {
 // 4  "My kith and kin [went into] the boat...;"													*"the ark" has been completed
 // ...
 // ~ ends at line 29 																				*Front + Back lines = 29+29 = 58 = Noah [50 + 8]; divided
-// ~ Quick calculation: First line & total tablet lines:				                                *6 words, 10 converted from binary, 58 total lines          => 615.8___ 
+// ~ Quick calculation: First line & total tablet lines:				                            *6 words, 10 converted from binary, 58 total lines          => 615.8___ 
 // ~ total lines factorial: 58! = 2.35,0561...*10^78   &    Sum of 1 to 25 "I completed the mixture" = 325
 //   rearrange:    			      3 25, 615.87[7 digits]1 																										=> 615.8771  
 // 
