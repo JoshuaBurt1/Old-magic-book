@@ -1,3 +1,5 @@
+// How to memorize DNA values
+
 #include <stdio.h>
 
 // Function prototypes
