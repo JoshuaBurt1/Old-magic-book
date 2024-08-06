@@ -1,4 +1,4 @@
-// How to memorize DNA values
+// How to remember DNA values
 
 #include <stdio.h>
 
