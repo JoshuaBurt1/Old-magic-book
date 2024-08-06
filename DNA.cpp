@@ -242,16 +242,19 @@ long integerPower(int base, int exponent) {
 // 
 // 	3. Voynich Manuscript:
 //  Visually similar cellular material pages: 75-86; turn the [-] => 1																					         => 615.87
-//  abbreviations: FR = right facing, FL = left facing, T = touching, IN = go in, OUT = go out
+//  abbreviations: FR = face right, FL = face left, T = touching, IN = go in, OUT = go out
 //
 //  Page 75 (front): Simple: pool A: 8 nymphs, pool B: nymphs 6 divided by 1 channel																			 => 615.87
-//                   pool A: 8 nymphs: (7FR, 1FL) & (5T, 1, [1IN-1OUT])																							 => _15.87
+//                   pool A: 8 nymphs: (7FL, 1FR) & (5T, 1, [1IN-1OUT])																							 => _15.87
 //					 pool B: 6 nymphs: (2T*3T), 1IN = 6 & 1OUT																												     *divided by 1 channel
-//				     		 (3RF*2LF), 1IN = 6 & 1OUT => 61																									 => 61_.__
+//				     		 (3FR*2FL), 1IN = 6 & 1OUT => 61																									 => 61_.__
+//                           3rowA + 3rowB = 6
+//                           3rowA / 3rowB = 1                                                                                                                   => 61_.__   
 //						
-//  Page 75 (reverse): pool A: 6FL:4LF over pool B: 16FL:3FR
+//  Page 75 (reverse): pool A: 6FL:4FR over pool B: 16FL:3FR
 //  (6-4)/(16-3) = 0.153846...
-//                   15 8 6    & 3+4=7 (total LF) 				  																								 => 615.87
+//                   15 8 6    & 3+4=7 (total FL) 				  																								 => 615.87
 // 
 //
 // 4. Dune (1[9]65): https://www.youtube.com/watch?v=124xCHfVUk4
+//
