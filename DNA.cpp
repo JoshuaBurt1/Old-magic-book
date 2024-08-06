@@ -1,4 +1,5 @@
 //How to remember DNA values
+//TODO: make a menu structure by topic
 
 #include <stdio.h>
 
@@ -139,21 +140,21 @@ long integerPower(int base, int exponent) {
 //	
 // First words up to "Noah" - Genesis 5														                                                                                        
 // Genesis 5:29 ->        English => [And]    + [he called]     + [his name]               + [Noah]         															* 29+5=34; 1 sigma flag
-//                        Hebrew =>  [6 + 10] + [100 + 200 + 1] + [1 + 400 + 300 + 40 + 6] + [50 + 8] = 1122
-//                                    _   __     2                                      9	  __   _																	* Step A: match verse value to position, starting from 0th value	                                      
-//                        6,10                                                                                                                  50,8					* First occurence game1: use values: 1,2,11,12 => 1=6, 2=10, 11=50, 12=8 	
-//                        6,10        * 100+200+1+1+400+300+40+6 = 1048 : similar to Hebrew word unique : "yachid" = 10 + 8 + 10 + 4 = 32       50,8  => 615.8         	* First occurence game2: between 3rd and 4th position OR 2nd and 3rd value, what is not a random occurrence? => note: value 32 = yachid : unique [1] -> 34.1 (1 sigma flag match)             
-//                        6,10        * Of (100,200,1,1,400,300,40,6), there are 7/8 unique [1] values & non-unique at position 5 & 6           50,8  => 615.8[7]
+//                        Hebrew =>  [6 + 10] + [100 + 200 + 1] + [1 + 400 + 300 + 40 + 6] + [50 + 8]   = 1122
+//                                    _   __     2                                      9	  __   _																	* Step A: match verse value to position, starting from 0th value position	                                      
+//                        6,10                                                                                                                  50,8  => 615.8			* First occurrence game1: use values: 1,2,11,12 => 1=6, 2=10, 11=50, 12=8 	
+//                        6,10        * 100+200+1+1+400+300+40+6 = 1048; 7 of 8 unique [Hebrew word unique:"yachid" = 10+8+10+4=32]             50,8  => 615.8[7]       * First occurrence game2: between 3rd and 4th position OR 2nd and 3rd value, what is not a random occurrence? => note: value 32 = yachid : unique [1] -> 34.1 (1 sigma flag match)             
+//                        6,10        * 10s in "yachid" not unique LIKE 1s at position 4 and 5 & SAME "yachid" # pos.: value = 10:50,8:40,4:1   50,8  => 615.8[7]
 //						  6,10        * total/(letter per word) = 1122/(2*3*5*2) = 18.7															50,8  => 615.8[7]
 //                        6,10        * all values/"yachid" = 1048/32 = 32.75 => "yachid".75 => 1 value, 7, position 5		                	50,8  => 615.87[71]
-//						  6,10        * total/all values = 1122/1048 = 1.070610687 => -> all values except 5: 7 of 10 non-zero  				50,8  => 615.87[71]
+//						  6,10        * total/all values = 1122/1048 = 1.070610687 => all values except 5: 7 of 10 non-zero      				50,8  => 615.87[71]
 //						  6,10        * 12 letters with value, 4 words, 1 sentence : 12+4+1 = 17 & 12*4*1=48 = 7*7-1                            50,8  => 615.8[771] 
 //
 // Genesis 5:30 ->       English => [And]    + [lived]  + [Lamech]       + [after]            + [he begot]                +  ~obj.    + [Noah]
 //						 Hebrew =>  [6 + 10] + [8 + 10] + [30 + 40 + 20] + [1 + 8 + 200 + 10] + [5 + 6 + 30 + 10 + 4 + 6] + [1 + 400] + [50 + 8] = 863 
 //                                   _   __         3							   (no position because word is object marker) =>  _     __   _
 //                                                  3                                                        (actual position) => 18
-//												2	3 								(all numbers @ word)  yachid[1] : 10+8+10+4 = 32 
+//												2	3 			  (unique occurrence: all numbers @ word)  yachid[1] : 10+8+10+4 = 32 
 //						  6,10																													50,8  => 615.8
 //																
 // Genesis 5:32 ->		 English => [And]    + [was]    + [Noah]           
@@ -170,7 +171,7 @@ long integerPower(int base, int exponent) {
 // (1122*863*89)+(1122+863+89) = 86,17[9],5[28]  ->  615.87,_,_,_
 // (1122*863*89)-(1122+863+89) = 86,175,[380]    ->  615.87,_,_,_ 
 // Average molecular mass - water - 2 protons: 						
-// 653.9233-18.01528*2-1.00784*2 = 615.87706     ->  615.877[06]                    * from 653.9233, subtract         2 H20 & 2 H;                                =>"615.877[1]"
+// 653.9233-18.01528*2-1.00784*2 = 615.87706     ->  615.877[06]                    * from 653.9233, subtract         2 H20 & 2 H;                               =>"615.877[1]"
 //  Reference: https://www.protocol-online.org/biology-forums-2/posts/27692.html
 // "Without accounting for the masses lost from the 2 waters or the 2 protons lost from the backbone phosphate, the masses end up being 654.4173 for GC and 653.4292, so an average of 653.9233."
 //
@@ -223,17 +224,17 @@ long integerPower(int base, int exponent) {
 // 1  "I applied (?) the outside kupru-bitumen from the kilns,"									
 // 2  "Out of the 120 gur-measures, which the workmen had put to one side."							*put 120 (& on lines 1,2) to one side; 12 | 615         	=> 615.____       *place-value check 			
 // 3  "I lay myself down (?) ... of rejoicing"	
-// 4  "My kith and kin [went into] the boat...;"													*"the ark" has be completed
+// 4  "My kith and kin [went into] the boat...;"													*"the ark" has been completed
 // ...
 // ~ ends at line 29 																				*Front + Back lines = 29+29 = 58 = Noah [50 + 8]; divided
-// ~ Quick calculation: First line & total tablet lines:				                                *6 words, 10 converted from binary, 58 total lines      => 615.8___ 
+// ~ Quick calculation: First line & total tablet lines:				                                *6 words, 10 converted from binary, 58 total lines          => 615.8___ 
 // ~ total lines factorial: 58! = 2.35,0561...*10^78   &    Sum of 1 to 25 "I completed the mixture" = 325
 //   rearrange:    			      3 25, 615.87[7 digits]1 																										=> 615.8771  
 // 
 //  B. Babylonian Map Tablet - Noah's ark relation: https://www.youtube.com/watch?v=LUxFzh8r384  
 //  ~map of Babylon with triangle pointing from Urartu / Mt. Ararat 
 // 	"To the fourth, to which you must travel seven leagues" 					0.7*10^4 = 7000  -> 5,700 lightyears away: Eagle Nebula contains the "pillars of creation"
-//  "as thick as a parsiktu-vessel... fingers" 									"parsiktu" : line 14 of Babyloninan ark story; only known word match 
+//  "as thick as a parsiktu-vessel... fingers" 									"parsiktu" : line 14 of Babylonian ark story; only known word match 
 //																				"fingers" : decimal place value measurement [0.001]; 
 //																							line 18,19,22: 18*1+19*1+22*5 = 147
 //																								 18*19*22 = 7,524 => 0.0075[full Babylonian day]
