@@ -120,11 +120,11 @@ long integerPower(int base, int exponent) {
 // 5  "Spurn property and save life!"
 // 6  "Draw out the boat that you will make"                       									*note: common reed boat structure : circular 
 // 7  "On a circular plan"                            												*Circumference = 2*pi*r				
-// 8  "Let her length and breadth be equal,"                                						*2*pi*1 = 6.2831853071795864...								 => 6.______		 *line 8, 6+2=8 : 6.28 
+// 8  "Let her length and breadth be equal,"                                						*2*pi*1 = 6.2831853071795864...								 => 6.______	  *line 8, 6+2=8 : 6.28 
 // 9  "Let her floor area be one field, let her sides be one nindan high:"   						* "
 // 10 "You saw kannu ropes and aalu ropes/rushes for [a corable before!]"
 // 11 "Let someone (else) twist the fronds and palm-fibre for you!          				    	
-// 12 "It will surely consume 14,430 sutu!"                                 						6.2831853071795864-0.14430 = 6.1388853071795864			 	 => 6.1_____       *line 12, 6.2 => 6.1
+// 12 "It will surely consume 14,430 sutu!"                                 						6.2831853071795864-0.14430 = 6.1388853071795864			 	 => 6.1_____      *line 12, 6.2 => 6.1
 // 13 "I set in place thirty ribs"																	6.1388853							 			 			 => 6.1_____ 	  *line 13, 6.13
 // 14 "Which were one parsiktu-vessel thick, ten nindan long"										6.1388853+(0.030) @ 0.01 length	or 0.1*0.3=0.03	= 6.1688853	 => 6.1_____      *line 14, 1,10:110 =6; 6.16
 // 15 "I set up 3,600 stanchions within her"																						
@@ -140,7 +140,7 @@ long integerPower(int base, int exponent) {
 // 24 "(With) tamarisk wood (?) (and) stalks (?)"													6.1587710071*100 = 615.877100								 => 615.877100	  *line 24 = decimal past 2+4:1+5 & before 2*4=8  => 615.8771... (note: Either a decimal value check or place value movement)						
 //																																												  *increase temp with wood : increase place value, note: line 24, binary(2) of 4 = "100" 
 //																																												  *all previous changes: -0.14430+0.030-(0.009)-0.001-0.0001-(0.0000125)+0.0000005-0.0000023 = -0.1244143; remove 24 => -0.[100]4143
-// 25 "... (= I completed the mixture).																615.8771007                								     => 615.8771007    *line 25 = all change numbers summed: 1+4+4+3+3+9+1+1+1+2+5+5+2+3+[1] = 45 : 0.25 of 180 degrees = 45
+// 25 "... (= I completed the mixture).																615.8771007                								     => 615.8771007   *line 25 = all change numbers summed: 1+4+4+3+3+9+1+1+1+2+5+5+2+3+[1] = 45 : 0.25 of 180 degrees = 45
 // 26 ...
 // 27 "Going between her ribs;"
 // 28 ...
@@ -160,7 +160,7 @@ long integerPower(int base, int exponent) {
 // ~ Total lines factorial: 58! = 2.35,0561...*10^78   &    Sum of 1 to 25 "I completed the mixture" = 325
 //   rearrange:    			      3 25, 615.87[7 digits]1                                                                                                        => 615.8771
 // ~ Major work relation:                                                                                                                                        
-// ~ Front + Back lines = 29+29 = 58 = Noah [50 + 8] => 1. Other old magic book, 2. Translation and amended version of Other old magic book
+// ~ Front + Back lines = 29+29 = 58 = Noah [50 + 8] => 1. Other old magic book
 // ~ CONCLUSION: matches DNA base pair average mass: 615.8771 
 //
 //
@@ -257,9 +257,7 @@ long integerPower(int base, int exponent) {
 // First words including "Noah" are [And he called his name Noah]                                                                                  
 //                        (A.Greek => ((20 + 1 + 10) + (5 + 80 + 800 + 50 + 70 + 40 + 1 + 200 + 5 + 50) + (300 + 70) + ( 70 + 50 + 70 + 40 + 1) + (1 + 400 + 300 + 70 + 400) + (50 + 800 + 5) = 3959))        
 //                        *This seems to have lost its link to the value 615.87 through direct translation. The Hebrew version is carefully crafted.*
-//                        *Only through Hebrew and Ancient Greek's shared link to proto-indo-european: Noah N value of 50 is retained*
 //             
-//
 // 	3. Voynich Manuscript:
 //  Visually similar cellular material pages: 75-86; turn the [-] => 1																				            => 615.87
 //  abbreviations: FR = face right, FL = face left, T = touching, IN = go in, OUT = go out
@@ -278,6 +276,4 @@ long integerPower(int base, int exponent) {
 // ~ CONCLUSION: matches DNA base pair average mass: 615.8771; Babylonian Ark Tablet value 615.8771; Other old magic book value 615.8771;
 //
 //  4. Dune (1[9]65): https://www.youtube.com/watch?v=124xCHfVUk4                                                                                               => 615.___
-//
-//  4. Dune (1[9]65): https://www.youtube.com/watch?v=124xCHfVUk4
 //
